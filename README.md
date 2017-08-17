@@ -1,4 +1,4 @@
-# Simple Ruby Name Parser
+# Basic Ruby Name Parser (Simple String/Array Manipulation Example)
 
 Note: I don't claim that this is a super efficient way to do things, instead I want to share this as a simple example of array/string manipulation in the Ruby Programming language for beginners. For a more comprehensive tool, I suggest a gem such as (Namae)[https://github.com/berkmancenter/namae].
 
