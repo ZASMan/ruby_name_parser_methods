@@ -6,7 +6,11 @@ This had a specific use case in which I had a CSV spreadsheet of several hundred
 After using Ruby's CSV class to pull the raw name data, I used the following simple methods to extract the names.
 
 Note: the `user_full_name` variable comes from the value pulled from the CSV file.
+
 ```
+# Example user_full_name_variable
+user_full_name = 'Anderson Wayne, Bruce Tom'
+
 def set_first_name(user_full_name)
   unless user_full_name.nil?
     # This compensates for a format such as
